@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<Filter Include="client">
+			<UniqueIdentifier>{9E206A64-EDF1-B049-AA9F-7AE6B893DE4B}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="client\include">
+			<UniqueIdentifier>{A68FB7B0-6B99-1043-8B67-FC06CD9F2B33}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="dependencies">
+			<UniqueIdentifier>{53B93724-E520-FF49-B81C-8D71F2DA34E9}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="dependencies\zlib">
+			<UniqueIdentifier>{D1707558-B574-4842-9F6A-5ED8148E491E}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="dependencies\bzip2">
+			<UniqueIdentifier>{E4622F19-ABB6-A14E-9634-5C3D5187E771}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="client\src">
+			<UniqueIdentifier>{9A0EA01B-E7FB-6047-AC2F-3E7120A64641}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClInclude Include="..\..\client\include\CEncryption.h">
+			<Filter>client\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\client\include\CLog.h">
+			<Filter>client\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\client\include\CProgramSettings.h">
+			<Filter>client\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\client\include\CSocket.h">
+			<Filter>client\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\client\include\CString.h">
+			<Filter>client\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\client\include\ICommon.h">
+			<Filter>client\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\client\include\IEnums.h">
+			<Filter>client\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\client\include\IPlayerProps.h">
+			<Filter>client\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\client\include\IUtil.h">
+			<Filter>client\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\client\include\main.h">
+			<Filter>client\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\client\include\md5.h">
+			<Filter>client\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\client\include\TConnection.h">
+			<Filter>client\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\dependencies\zlib\crc32.h">
+			<Filter>dependencies\zlib</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\dependencies\zlib\deflate.h">
+			<Filter>dependencies\zlib</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\dependencies\zlib\gzguts.h">
+			<Filter>dependencies\zlib</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\dependencies\zlib\inffast.h">
+			<Filter>dependencies\zlib</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\dependencies\zlib\inffixed.h">
+			<Filter>dependencies\zlib</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\dependencies\zlib\inflate.h">
+			<Filter>dependencies\zlib</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\dependencies\zlib\inftrees.h">
+			<Filter>dependencies\zlib</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\dependencies\zlib\trees.h">
+			<Filter>dependencies\zlib</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\dependencies\zlib\zconf.h">
+			<Filter>dependencies\zlib</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\dependencies\zlib\zlib.h">
+			<Filter>dependencies\zlib</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\dependencies\zlib\zutil.h">
+			<Filter>dependencies\zlib</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\dependencies\bzip2\bzlib.h">
+			<Filter>dependencies\bzip2</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\dependencies\bzip2\bzlib_private.h">
+			<Filter>dependencies\bzip2</Filter>
+		</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+		<ClCompile Include="..\..\client\src\CEncryption.cpp">
+			<Filter>client\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\client\src\CLog.cpp">
+			<Filter>client\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\client\src\CProgramSettings.cpp">
+			<Filter>client\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\client\src\CSocket.cpp">
+			<Filter>client\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\client\src\CString.cpp">
+			<Filter>client\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\client\src\IUtil.cpp">
+			<Filter>client\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\client\src\main.cpp">
+			<Filter>client\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\client\src\md5.cpp">
+			<Filter>client\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\client\src\TConnection.cpp">
+			<Filter>client\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\client\src\TPlayerProps.cpp">
+			<Filter>client\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\dependencies\zlib\adler32.c">
+			<Filter>dependencies\zlib</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\dependencies\zlib\compress.c">
+			<Filter>dependencies\zlib</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\dependencies\zlib\crc32.c">
+			<Filter>dependencies\zlib</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\dependencies\zlib\deflate.c">
+			<Filter>dependencies\zlib</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\dependencies\zlib\gzclose.c">
+			<Filter>dependencies\zlib</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\dependencies\zlib\gzlib.c">
+			<Filter>dependencies\zlib</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\dependencies\zlib\gzread.c">
+			<Filter>dependencies\zlib</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\dependencies\zlib\gzwrite.c">
+			<Filter>dependencies\zlib</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\dependencies\zlib\infback.c">
+			<Filter>dependencies\zlib</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\dependencies\zlib\inffast.c">
+			<Filter>dependencies\zlib</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\dependencies\zlib\inflate.c">
+			<Filter>dependencies\zlib</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\dependencies\zlib\inftrees.c">
+			<Filter>dependencies\zlib</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\dependencies\zlib\trees.c">
+			<Filter>dependencies\zlib</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\dependencies\zlib\uncompr.c">
+			<Filter>dependencies\zlib</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\dependencies\zlib\zutil.c">
+			<Filter>dependencies\zlib</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\dependencies\bzip2\blocksort.c">
+			<Filter>dependencies\bzip2</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\dependencies\bzip2\bz2compress.c">
+			<Filter>dependencies\bzip2</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\dependencies\bzip2\bzlib.c">
+			<Filter>dependencies\bzip2</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\dependencies\bzip2\crctable.c">
+			<Filter>dependencies\bzip2</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\dependencies\bzip2\decompress.c">
+			<Filter>dependencies\bzip2</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\dependencies\bzip2\huffman.c">
+			<Filter>dependencies\bzip2</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\dependencies\bzip2\randtable.c">
+			<Filter>dependencies\bzip2</Filter>
+		</ClCompile>
+	</ItemGroup>
+</Project>
